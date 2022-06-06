@@ -171,4 +171,58 @@ los arrays se usan en los sprites de los videojuegos, o en un menú de opciones
 
 Python cuenta con un modulo array pero no es tan versatil, ya que solo almacena numeros y caracteres
 
+
+
+------------------------------------------------ Linked Structures ----------------------------
+
+-Consiste de nodos conectados a otros
+- Los más comunes son sencillos o dobles
+- No se accede por indice, sino por recorrido
+
+conceptos:
+    Data : valor almacenado en nodos
+    Next: referencia al siguiente nodo
+    Previous: referencia al nodo anterior
+    Head: referencia al primer nodo
+    Tail: al ultimo nodo
+
+Implementar otras estructuras
+Optimización
+
+head
+[] -> [D1 | Referencia] -> [D2 | Referencia] -> [D3 | None]
+[Tail] -> apunta D3
+
+ejemplos: Historial de un navegador, Hacer/rehacer operaciiones en un
+editor de texto
+
+linked list
+
+son estructuras de datos lineales, donde sus elementos no están almacenados
+en bloques continuos de memoria, a diferencia de los array, que estos son almacenados
+de bloques continuos de memoria, mientras que las Linked List son almacenados en diferentes
+sectores de la memoria y hace referencia a sus elementos mediantes punteros
+
+
+--------  Iterable ------
+
+se le llama asi un objeto que es capaz de retornar sus miembros uno a la vez. Entres los
+iterables se encuentran estrucutras de secuencia como son:
+strings
+listas
+tuples
+
+
+--- Iterador ----
+Objeto que está representando un flujo de datos
+
+Este iterador es bueno para dar un paseo sobre el conjunto de valores
+
+
+
+-------------------- Circular Linked List(Lista Enlazada Circular) -----
+En el primer elemento tiene un puntero que apunta al elemento final y elemento final
+apunta al primero. Esto se traduciría en un bucle infinito, también se puede combinar
+con las anteriores
+
 """
