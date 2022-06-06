@@ -225,4 +225,8 @@ En el primer elemento tiene un puntero que apunta al elemento final y elemento f
 apunta al primero. Esto se traduciría en un bucle infinito, también se puede combinar
 con las anteriores
 
+------------------ Double linked list ----------------
+un puntero  hace referencia al siguiente nodo y al anterior, en caso del primer nodo, esta solamente va hacer
+referencia al primero
+
 """
