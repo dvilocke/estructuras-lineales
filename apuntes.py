@@ -229,4 +229,28 @@ con las anteriores
 un puntero  hace referencia al siguiente nodo y al anterior, en caso del primer nodo, esta solamente va hacer
 referencia al primero
 
+--- stackst -> pilas ------
+.colección lineal
+.Basados en arrays o linked list
+
+el principio fundamental de los stacks es:
+LIFO, es decir, que el ultimo elemento en entrar será el primero en salir
+
+operaciones:
+    -Añadir: push
+    -Remover: pop
+    -Top:conocer cual es el elemento superior
+    -Bottom:elemento hasta abajo de la pila
+
+    aplicaciones:
+        -Invertir el orden de una lista
+        -implementar "undo" -> control z
+        -Mantener historiales
+        -Backtracking : es decir, que tenemos informacion
+        y queremos del final al principio
+
+    stack vs list:
+    Similares, no iguales
+    List: append, pop.
+    Es afectada por sus otros métodos
 """
