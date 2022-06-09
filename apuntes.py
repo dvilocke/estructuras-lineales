@@ -253,4 +253,23 @@ operaciones:
     Similares, no iguales
     List: append, pop.
     Es afectada por sus otros métodos
+
+queues -> colas -> fifo
+aquel elemento que llego primero a la fila va hcer el primero en salir
+rear -> el ultimo elemento que entro
+front -> esta hasta el frente, el primero que va hacer atendido
+Priority queues-> se basa en Fifo con elementos de mayor/menor prioridad
+
+por ejemplo: sus elementos pueden tener
+una prioridad distinta al ser atendidas
+quisas alguno de esos elementos intermedio va hacer atendido
+mas rapido o antes que front, por ejemplo en el abordaje de un avion
+hay personas que tienen un pase ejecutivo
+
+en las colas de los hospitales de acuerdo al nivel de
+urgencia de las personas, eso obviamente altera
+
+
+
+
 """
